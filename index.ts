@@ -12,7 +12,7 @@ let student=[
 function ageCount (student){
   let counter = 0;
   for (const input of student){
-  if (input.age ==10) counter+=1;
+  if (input.age < 10) counter+=1;
   } return counter;
 }
 console.log (
